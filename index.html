@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1> Контакти</h1>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Ім'я" required>
+      <input type="text" id="surname" placeholder="Прізвище" required>
+      <input type="tel" id="phone" placeholder="Телефон" required>
+      <input type="email" id="email" placeholder="Електронна пошта" required>
+      <button type="submit">Додати контакт</button>
+    </form>
+
+    <h2>Ваші контакти</h2>
+    <ul id="contactList"></ul>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
